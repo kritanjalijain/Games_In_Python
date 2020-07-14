@@ -58,7 +58,7 @@ def play(word):
 
 
 def display_hangman(tries):
-    stages = [  # final state: head, torso, both arms, and both legs
+    stages = [  # final state: head, belly, both the arms, and both the legs
                 """
                    --------
                    |      |
@@ -68,7 +68,7 @@ def display_hangman(tries):
                    |     / \\
                    -
                 """,
-                # head, torso, both arms, and one leg
+                # head, belly, both the arms, and one leg
                 """
                    --------
                    |      |
@@ -78,7 +78,7 @@ def display_hangman(tries):
                    |     / 
                    -
                 """,
-                # head, torso, and both arms
+                # head, belly, and both the arms
                 """
                    --------
                    |      |
@@ -88,7 +88,7 @@ def display_hangman(tries):
                    |      
                    -
                 """,
-                # head, torso, and one arm
+                # head, belly, and one arm
                 """
                    --------
                    |      |
@@ -98,7 +98,7 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-                # head and torso
+                # head and belly
                 """
                    --------
                    |      |
